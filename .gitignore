@@ -6,3 +6,8 @@
 *.ini
 *.aps
 *.stash
+.vs
+debug
+release
+bookreader.qtvscr
+ui_*.h
