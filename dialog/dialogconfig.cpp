@@ -1,5 +1,5 @@
 ﻿/*
-Copyright (C) 2020 popkc(popkcer at gmail dot com)
+Copyright (C) 2020 cfl997 (cfl997@163.com)
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
@@ -152,7 +152,7 @@ void DialogConfig::on_pushButtonListen_clicked()
     tts.setRate(ui->horizontalSliderRate->value() / 100.0);
     tts.setPitch(ui->horizontalSliderPitch->value() / 100.0);
 
-    tts.say(tr("欢迎使用POPKC阅读软件"));
+    tts.say(tr("欢迎使用书籍读器离线版"));
 }
 
 void DialogConfig::on_pushButtonFont_clicked()

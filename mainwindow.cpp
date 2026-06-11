@@ -1,5 +1,5 @@
 ﻿/*
-Copyright (C) 2020 popkc(popkcer at gmail dot com)
+Copyright (C) 2020 cfl997 (cfl997@163.com)
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
@@ -172,7 +172,7 @@ void MainWindow::createTrayIcon()
     trayMenu->addAction(ui->actionRead);
     trayMenu->addAction(ui->actionExit);
     trayIcon->setContextMenu(trayMenu);
-    trayIcon->setToolTip(tr("POPKC阅读软件"));
+    trayIcon->setToolTip(tr("书籍读器离线版"));
     connect(trayIcon, &QSystemTrayIcon::activated, this, &MainWindow::onTrayActivated);
 }
 

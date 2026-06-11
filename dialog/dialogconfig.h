@@ -1,5 +1,5 @@
 ﻿/*
-Copyright (C) 2020 popkc(popkcer at gmail dot com)
+Copyright (C) 2020 cfl997 (cfl997@163.com)
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
@@ -65,7 +65,7 @@ class DialogConfig;
 #define MIN_ROLLRATE 1
 #define MAX_ROLLRATE 150
 
-#define POPKC_TITLE QObject::tr("POPKC阅读软件")
+#define POPKC_TITLE QObject::tr("书籍读器离线版")
 
 #ifdef _WIN32
 #    define DEFAULT_FONTFAMALY "微软雅黑"
